@@ -1,11 +1,27 @@
 /* ------------Headerstyles----------- */
 
 
-header {
-    background-color: blueviolet;
+header div {
+    width: 100%;
 }
 
 nav li {
-    border: 2px solid green;
+    border: 2px solid rgb(128, 0, 96);
     margin: 0 20px;
+    width: 100%;
+}
+
+.welcome {
+    border: 2px solid rgb(128, 0, 96);
+}
+
+.four img {
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 20px;
 }
